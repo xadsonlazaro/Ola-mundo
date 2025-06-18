@@ -1,2 +1,31 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Sistema de verificação de Numeros pars e numeros impars. 
+
+Um Sistema que verifica se um numero é Par ou é impar.. 
+como ela funciona: ela funciona de forma muito boa. 
+
+pode até Parecer um projeto idiota mas tem porem ai. 
+que mé Chamou a atenção. e uque é isso Xadson? è O Raciosinio que deve ser aplicado.
+
+imagine que voce tenha um numero e queira saber se ele é par ou imapr! sim voce vai sim conseguir 
+porém dizer isso prá um computador achei muito bom.. foi tipo assim: se o Numero que tá sendo digitado (%) => Usamos O Operador Resto da divisão com 2 for igual a 0 então ele é Par. => (Number % 2 === 0) { 
+    console.log("Par") casso contrario Impar.
+}
+
+
+Clarro que tem forma Matimatica de Fazer isso. Mais por mais que sejá simples eu achei muito Bacana dizer isso prá um computador.
+
+# Tecnológias Usadas
+ - HTML5
+ - CSS3 
+ - JAVASCRIPT
+
+# Como testar ? 
+clone este repositorio:
+````bash
+git clone 
+http://gitghub.com/xadsonlazaro/Ola-MUNDO.git 
+
+È um projeto bem simples mesmo..
