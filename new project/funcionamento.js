@@ -43,5 +43,4 @@ function verificar () {
                 window.confirm(`Haa Nisso ${question2} Sim boa observação ${nome} Vou ver se dou uma melhorada.... (Obrigado)`)
             }
     }
-    window.console("kjhfjkd")
   }
