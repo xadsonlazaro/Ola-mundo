@@ -1,0 +1,31 @@
+h1 { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+
+* { 
+    text-align: center; 
+ }
+ .btn { 
+    color: blue;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2px;
+    box-shadow: 4px 3px 2px;
+
+ }
+
+ .btn2 { 
+    background: #4e54c8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s ease;
+ }
+
+ .btn2:hover { 
+    background: ;
+ }
