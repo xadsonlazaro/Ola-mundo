@@ -1,31 +1,129 @@
 h1 { 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 
 }
+
+input { 
+
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+   border-radius: 7px;
+   padding: 5px 5px; 
+   box-shadow: 4px 4px 4px;
+   cursor: pointer;
+   overflow-y: scroll;
+   color: #6c70f0;
+}
+
+h1 { 
+   font-family: 'Courier New', Courier, monospace;
+}
+
+h2 { 
+   font-size: medium;
+   box-shadow: 4px 3px 4px;
+   color: aqua;
+   border-radius: 10px 5px ;
+}
+
 
 * { 
     text-align: center; 
  }
  .btn { 
-    color: blue;
-    border-radius: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 2px;
-    box-shadow: 4px 3px 2px;
-
+   position: relative;
+   overflow: hidden;
+   background: #7441ff;
+   color: white; 
+   padding: 10px 25px; 
+   border: none; 
+   border-radius: 20px;
+   font-weight: bold;
+   cursor: pointer;
+   transition: 0.4s ease;
  }
+
+.btn::before { 
+   content: "";
+   position: absolute; 
+   top: 0;
+   left: -75%;
+   width: 50%; 
+   height: 100%; 
+   background: linear-gradient( 
+      120deg, 
+      rgba(255, 255, 255, 0.3) 0%, 
+      rgba(255, 255, 255, 0.6) 50%, 
+      rgba(255, 255, 255, 0.3) 100%
+   );
+   transform: skewX(-20deg);
+}
+
+.btn:hover::before { 
+   animation: shine 1s ease forwards;
+}
+
+@keyframes shine { 
+   0% { 
+      left: -75;
+   }
+   100% { 
+      left: 125%;
+   }
+}
+
+.btn:hover { 
+   transform: scale(1.05);
+   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
 
  .btn2 { 
     background: #4e54c8;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border: none;
-    border-radius: 6px;
+    border-radius: 15px;
     font-weight: bold;
     transition: 0.3s ease;
  }
 
  .btn2:hover { 
-    background: ;
+    background: #6c70f0;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgb(0, 0, 0, 
+    0.2);
+ }
+
+ @keyframes pulse { 
+   0% { 
+      transform: scale(1);
+      box-shadow: 0 0 0 rgb(0, 0, 0); 
+   }
+   50% { 
+      transform: scale(1.05);
+      box-shadow: 0 0 10px rgb(78, 84,
+      200, 0.04);
+   }
+   100% { 
+      transform: scale(1);
+      box-shadow: 0 0 0 rgb(0, 0, 0);
+   }
+ }
+
+ .btn2 { 
+   background: #4e54c8;
+   color: #fff;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 6px; 
+   font-weight: bold;
+   animation: pulse 2s infinite;
+   transition: 0.3s ease;
+ }
+
+ .btn2:hover { 
+   background: #6c70f0;
+   transform: scale(1. 1); 
+   box-shadow: 0 6px 16px rgb(0, 0, 0, 
+   0.3);
  }
